@@ -14,7 +14,7 @@ class TypeHintedMethodsExtension implements Extension
      * @param ServiceContainer $container
      * @param array            $params
      */
-    public function load(ServiceContainer $container, array $params)
+    public function load(ServiceContainer $container, array $params): void
     {
         $container->define('code_generator.generators.method.classidentifier', function ($c) {
             return new ClassIdentifier();
