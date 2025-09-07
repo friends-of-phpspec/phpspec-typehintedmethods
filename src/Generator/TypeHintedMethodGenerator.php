@@ -34,10 +34,10 @@ class TypeHintedMethodGenerator implements Generator
     /**
      * @param ConsoleIO $io
      * @param TemplateRenderer $templates
-     * @param Filesystem $filesystem
+     * @param Filesystem|null $filesystem
      * @param StringBuilder $argumentBuilder
      */
-    public function __construct(ConsoleIO $io, TemplateRenderer $templates, Filesystem $filesystem = null, StringBuilder $argumentBuilder)
+    public function __construct(ConsoleIO $io, TemplateRenderer $templates, ?Filesystem $filesystem, StringBuilder $argumentBuilder)
     {
         $this->argumentBuilder = $argumentBuilder;
         $this->io = $io;
@@ -99,4 +99,3 @@ __halt_compiler();
     {
         // TODO: write logic here
     }
-
