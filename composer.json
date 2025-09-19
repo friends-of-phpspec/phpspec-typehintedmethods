@@ -1,5 +1,5 @@
 {
-    "name": "ciaranmcnulty/phpspec-typehintedmethods",
+    "name": "friends-of-phpspec/phpspec-typehintedmethods",
     "type": "library",
     "description": "Extension for phpspec to enhance generated methods",
     "keywords": ["tdd","bdd","phpspec"],
