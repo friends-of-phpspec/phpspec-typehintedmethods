@@ -1,9 +1,9 @@
 {
-    "name": "ciaranmcnulty/phpspec-typehintedmethods",
+    "name": "friends-of-phpspec/phpspec-typehintedmethods",
     "type": "library",
     "description": "Extension for phpspec to enhance generated methods",
     "keywords": ["tdd","bdd","phpspec"],
-    "homepage": "http://github.com/ciaranmcnulty/phpspec-typehintedmethods",
+    "homepage": "https://github.com/friends-of-phpspec/phpspec-typehintedmethods",
     "license": "MIT",
     "authors": [
         {
